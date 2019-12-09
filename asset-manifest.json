@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactApp/static/css/main.bf5ed4ff.chunk.css",
+    "main.js": "/reactApp/static/js/main.a210fc40.chunk.js",
+    "main.js.map": "/reactApp/static/js/main.a210fc40.chunk.js.map",
+    "runtime-main.js": "/reactApp/static/js/runtime-main.c26bb5e5.js",
+    "runtime-main.js.map": "/reactApp/static/js/runtime-main.c26bb5e5.js.map",
+    "static/js/2.4ef70fe2.chunk.js": "/reactApp/static/js/2.4ef70fe2.chunk.js",
+    "static/js/2.4ef70fe2.chunk.js.map": "/reactApp/static/js/2.4ef70fe2.chunk.js.map",
+    "index.html": "/reactApp/index.html",
+    "precache-manifest.974a6a54f8645ab3e7c56f9cf6b4f135.js": "/reactApp/precache-manifest.974a6a54f8645ab3e7c56f9cf6b4f135.js",
+    "service-worker.js": "/reactApp/service-worker.js",
+    "static/css/main.bf5ed4ff.chunk.css.map": "/reactApp/static/css/main.bf5ed4ff.chunk.css.map",
+    "static/media/boat.svg": "/reactApp/static/media/boat.188c8180.svg",
+    "static/media/cloud1.svg": "/reactApp/static/media/cloud1.4ab17593.svg",
+    "static/media/cloud2.svg": "/reactApp/static/media/cloud2.2d02e223.svg",
+    "static/media/cloud3.svg": "/reactApp/static/media/cloud3.5de92f1f.svg",
+    "static/media/customAvatar.jpg": "/reactApp/static/media/customAvatar.8e5ac0ea.jpg",
+    "static/media/moon.svg": "/reactApp/static/media/moon.8339f1bf.svg",
+    "static/media/wave1.svg": "/reactApp/static/media/wave1.4c216452.svg",
+    "static/media/wave2.svg": "/reactApp/static/media/wave2.690d4948.svg",
+    "static/media/wave3.svg": "/reactApp/static/media/wave3.1f6cf712.svg",
+    "static/media/wave4.svg": "/reactApp/static/media/wave4.babc32ef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c26bb5e5.js",
+    "static/js/2.4ef70fe2.chunk.js",
+    "static/css/main.bf5ed4ff.chunk.css",
+    "static/js/main.a210fc40.chunk.js"
+  ]
+}
