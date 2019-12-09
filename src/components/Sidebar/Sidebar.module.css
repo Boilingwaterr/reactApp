@@ -1,0 +1,24 @@
+.sidebar {
+    grid-area: S;
+    background-color: #181a1f;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+    align-content: flex-start;
+}
+
+.sidebar div {
+    text-align: start;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    color: #5a5761;
+}

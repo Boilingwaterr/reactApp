@@ -1,0 +1,24 @@
+.settings {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockOne {
+    border-radius: 4px;
+    margin-left: 5px;
+    background: #1d2024;
+    height: 90%;
+    width: 25%;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.blockTwo {
+    border-radius: 4px;
+    margin-right: 5px;
+    background: #1d2024;
+    height: 90%;
+    width: 65%;
+    box-shadow: 1px 1px 3px #000000;
+}

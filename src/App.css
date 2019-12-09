@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+*::-webkit-scrollbar {
+    direction: rtl;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    background-color: #16181b;
+}
+
+*::-webkit-scrollbar-track {
+    border-left: solid 1px #2a2d33;
+    background-color: #2a2d33;
+    border-radius: 5px;
+}
+
+.App {
+    text-align: center;
+    height: 100vh;
+    min-height: 810px;
+    min-width: 1030px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 40px 1fr;
+    grid-template-areas: 'H H' 'S C';
+    background: #22252b;
+}

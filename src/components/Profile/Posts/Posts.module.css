@@ -1,0 +1,79 @@
+.Posts {
+    display: flex;
+    flex-direction: column;
+    margin: auto 20px;
+}
+
+.post {
+    border-radius: 3px;
+    box-shadow: #000000 .5px .5px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    background: #31313155;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background: chartreuse; */
+}
+
+.postPhoto {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.postSender {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background: hotpink; */
+}
+
+.postContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+    margin: 20px;
+    /* background: rebeccapurple; */
+    /* word-wrap: break-word; */
+}
+
+.postContent h1 {
+    align-self: flex-start;
+}
+
+.postContent p {
+    text-align: start;
+    width: 90%;
+}
+
+.postFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background: forestgreen; */
+}
+
+.postFooter div {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.settingPost {
+    background: #4f4f53;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.Dialogs {
+    display: flex;
+    background: #22252b;
+    height: calc(100vh - 40px);
+    min-height: 810px;
+}
+
+.dialogsList {
+    overflow: hidden;
+    background: #1d2024;
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    animation: slide .5s linear;
+    overflow-y: auto;
+}
+
+.list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list a {
+    padding: 10px;
+}
+
+.hr {
+    position: relative;
+    width: 3px;
+    height: 100%;
+    background: #4f4f53;
+}
+
+.messagesBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    min-height: 810px;
+}
+
+.messageList {
+    margin-right: 5px;
+    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sendMessageArea {
+    display: flex;
+}
+
+@keyframes slide {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 10%;
+    }
+    50% {
+        width: 30%;
+    }
+    75% {
+        width: 25%;
+    }
+    100% {
+        width: 30%;
+    }
+}

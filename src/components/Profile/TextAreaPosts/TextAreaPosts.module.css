@@ -1,0 +1,17 @@
+.textareaBox {
+    width: 100%;
+}
+
+textarea {
+    position: relative;
+    background: #4f4f53;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    width: 95%;
+    height: 75%;
+    border: none;
+    resize: none;
+    outline: none;
+}

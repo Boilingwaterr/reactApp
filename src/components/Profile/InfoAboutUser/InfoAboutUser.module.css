@@ -1,0 +1,59 @@
+.infoAboutUser {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d2024;
+    color: white;
+    width: 70%;
+    height: 260px;
+    box-shadow: 1px 1px 2px #000000;
+    overflow: auto;
+}
+
+.infoAboutUser div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.infoAboutUser p,
+h1 {
+    margin-bottom: 5px;
+}
+
+.infoAboutUser input {
+    align-self: center;
+    width: 50%;
+}
+
+.profileStatus {
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.editButton {
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    overflow: hidden;
+}
+
+.saveButton button {
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 25px;
+    background: #4f4f53;
+    color: #757575;
+    outline: none;
+    cursor: pointer;
+}
+
+.saveButton button:hover {
+    background: #444444;
+    transition-duration: 400ms;
+}

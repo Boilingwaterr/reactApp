@@ -1,0 +1,78 @@
+.loginFormWrapper {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.loginForm {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 1px #000000;
+    background: #1d2024;
+}
+
+.loginForm div {
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+    position: relative;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding-left: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+}
+
+.captchaWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.captchaWrapper div {
+    margin: 0 auto;
+}
+
+.buttonWrapper {
+    align-self: center;
+}
+
+.buttonWrapper button {
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 20px;
+    background: #666666;
+    color: #ffffff;
+    margin-top: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.buttonWrapper button:hover {
+    background: #4b4b4b;
+    transition-duration: 400ms;
+}
+
+.errorWrapper {
+    color: #a74f4f
+}
+
+.errorWrapper::before {
+    content: '';
+    background: #a74f4f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}

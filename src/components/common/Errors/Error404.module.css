@@ -1,0 +1,84 @@
+.errorParallax {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 600px;
+    width: 762px;
+    overflow: hidden;
+}
+
+.errorParallax div img {
+    width: 100%;
+    height: 90%;
+}
+
+.errorParallax div:nth-child(1) {
+    position: absolute;
+    z-index: 10;
+    width: 150%;
+    ;
+    bottom: 0;
+}
+
+.errorParallax div:nth-child(2) {
+    position: absolute;
+    z-index: 9;
+    width: 140%;
+    bottom: 15px;
+}
+
+.errorParallax div:nth-child(3) {
+    position: absolute;
+    z-index: 8;
+    left: 10%;
+    width: 100%;
+    bottom: 50px;
+}
+
+.errorParallax div:nth-child(4) {
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    left: 30px;
+    bottom: 25px;
+}
+
+.errorParallax div:nth-child(5) {
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    left: 10px;
+    bottom: 30px;
+}
+
+.errorParallax div:nth-child(6) {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+}
+
+.errorParallax div:nth-child(7) {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
+
+.errorParallax div:nth-child(8) {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+}
+
+.errorParallax div:nth-child(9) {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.errorParallax div:nth-child(10) {
+    position: absolute;
+    z-index: 11;
+    color: #ffffff;
+    top: 25%;
+}

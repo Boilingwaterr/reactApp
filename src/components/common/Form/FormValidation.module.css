@@ -1,0 +1,29 @@
+.errorSpan {
+    color: #a74f4f;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+.errorSpan::before {
+    content: '';
+    background: #a74f4f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.warningSpan {
+    color: #ccb44a;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.warningSpan::before {
+    content: '';
+    background: #ccb44a;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}

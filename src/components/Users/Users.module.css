@@ -1,0 +1,49 @@
+.usersPage {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.userWrapper {
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+}
+
+.userWrapper button {
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 20px;
+    background: #666666;
+    color: #ffffff;
+    margin-top: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.userWrapper button:hover {
+    background: #4b4b4b;
+    transition-duration: 400ms;
+}
+
+.firstPiece {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 105px;
+}
+
+.secondPiece {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.secondPiece div {
+    margin-top: 5px;
+    text-align: start;
+}
